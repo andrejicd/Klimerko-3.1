@@ -1,4 +1,3 @@
-
 /*  ------------------------------------------- Project "KLIMERKO" ---------------------------------------------
  *  Citizen Air Quality measuring device with cloud monitoring, built at https://descon.me for the whole world.
  *  Programmed, built and maintained by Vanja Stanic // www.vanjastanic.com
