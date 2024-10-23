@@ -122,9 +122,9 @@ int            avgPM1, avgPM25, avgPM10;
 // -------------------------- BME280 -----------------------------------------------------
 bool           bmeSensorOnline                = true;
 int            bmeSensorRetry                 = 0;
-float          bmeTemperatureOffset           = -2;   // Default temperature offset
+float          bmeTemperatureOffset           = 0;   // Default temperature offset
 char           bmeTemperatureOffsetChar[8];           // Used for WiFi Configuration Portal and memory
-const char     bmeTemperatureOffsetDefault[8] = "-2"; // Used for WiFi Configuration Portal and memory
+const char     bmeTemperatureOffsetDefault[8] = "0"; // Used for WiFi Configuration Portal and memory
 const int      bmeTemperatureOffsetMax        = 25;
 const int      bmeTemperatureOffsetMin        = -25;
 float          avgTemperature, avgHumidity, avgPressure, avgaltitude;
