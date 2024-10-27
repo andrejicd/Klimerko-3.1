@@ -1008,6 +1008,8 @@ void initWiFi() {
   wm.setSaveConnect(true);
   wm.setBreakAfterConfig(true);
   wm.setWiFiAutoReconnect(true);
+  wm.setScanDispPerc(true);
+
   WiFi.mode(WIFI_STA);
   Serial.print("[MEMORY] WiFi SSID: ");
   if (wm.getWiFiIsSaved()) {
