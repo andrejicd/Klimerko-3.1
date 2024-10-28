@@ -19,7 +19,7 @@ In the .ini file field 40
 
 int altitude = ***; // Altitude of the station location in meters
 
-instead of ***, enter the device's altitude
+instead of ***, enter the device's altitude in meters
 
 
  
