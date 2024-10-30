@@ -37,7 +37,7 @@ float c = 243.12;
 float gamma_var, dewpoint, humidityAbs, pressureSea;
 float pressureSea_cal = SEA_LEVEL_PRESSURE_CAL;
 float HeatIndex;
-int altitude = 370; // Altitude of the station location in meters
+int altitude = ***; // Altitude of the station location in meters
 
 // ------------------------- Device -----------------------------------------------------
 String         firmwareVersion         = "3.1 by andrejicd";
