@@ -5,7 +5,7 @@
 - HeatIndex
 - pressureSea
 - humidityAbs
-- dew point
+- dewpoint
 - altitude
 
 choose:
